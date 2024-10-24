@@ -7,7 +7,7 @@ para responder a questão 3 e 6, foi necessário usar um sizeof de uma célula, 
 assim é possível calcular o número máximo teórico de células que eu posso ter nessa lista: é só dividir a minha memória total (256 gb) por 16 bytes. O que daria 16 000 000 000 celulas possíveis.
 
 ------------------------------------------------------------------------------------------------->
-código: 
+''código: 
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -118,6 +118,7 @@ int main(void) {
 	scanf("%d", &x);
 
 	delete_celula(&list, x);
+''
 
 	print_celulas(&list);
 
